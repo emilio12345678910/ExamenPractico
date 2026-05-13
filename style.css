@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-image: url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #333;
+}
+
+.contenedor-principal {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+    max-width: 1400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.encabezado-sitio {
+    background-color: #000000b3;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.encabezado-sitio h1 {
+    margin: 0;
+}
+
+.seccion-principal {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.barra-lateral {
+    background-color:#000000b3;
+    padding: 30px;
+    color: white;
+}
+
+.barra-lateral h2 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.barra-lateral p,
+.barra-lateral li {
+    line-height: 1.6;
+}
+
+.area-contenido-principal {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+
+.columnas-datos {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.columna-dato {
+    display: grid;
+    gap: 10px;
+}
+
+.estadisticas {
+    margin-top: 20px;
+}
+
+.estadisticas ul {
+    padding-left: 20px;
+}
+
+.caja-crud {
+    background-color: #000000b3;
+    padding: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    min-height: 280px;
+}
+
+.caja-crud h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ffd700;
+}
+
+.grafico-img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.info-card {
+    text-align: left;
+    padding: 25px;
+    line-height: 1.6;
+}
+
+.info-card p {
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+    .seccion-principal {
+        grid-template-columns: 1fr;
+    }
+    .barra-lateral {
+        padding: 20px;
+    }
+    .columnas-datos {
+        grid-template-columns: 1fr;
+    }
+}

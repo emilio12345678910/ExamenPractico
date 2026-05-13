@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas Malagon</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <header class="encabezado-sitio">
+            <h1>Examen práctico Malagon</h1>
+        </header>
+
+        <main class="seccion-principal">
+            <aside class="barra-lateral">
+                <h2>Datos</h2>
+                <img src="img/datos.png" alt="Datos" class="grafico-img">
+                <div class="estadisticas">
+                    <h3>Estadísticas</h3>
+                    <ul>
+                        <li>Peso: media = {{peso_media}}, mediana = {{peso_mediana}}, moda = {{peso_moda}}</li>
+                        <li>Altura: media = {{altura_media}}, mediana = {{altura_mediana}}, moda = {{altura_moda}}</li>
+                        <li>Velocidad: media = {{velocidad_media}}, mediana = {{velocidad_mediana}}, moda = {{velocidad_moda}}</li>
+                    </ul>
+                    <p>Conteo de colores: {{colores}}</p>
+                </div>
+            </aside>
+
+            <section class="area-contenido-principal">
+                <div class="columnas-datos">
+                    <div class="columna-dato">
+                        <div class="caja-crud">
+                            <h3>Peso</h3>
+                            <img src="img/peso-frecuencia-absoluta.png" alt="Frecuencia Absoluta de Peso" class="grafico-img">
+                            <p>Frecuencias absolutas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/peso-frecuencia-relativa.png" alt="Frecuencia Relativa de Peso" class="grafico-img">
+                            <p>Frecuencias relativas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/peso-frecuencia-acumulada.png" alt="Frecuencia Acumulada de Peso" class="grafico-img">
+                            <p>Frecuencia acumulada</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/peso-poligono-frecuencias.png" alt="Polígono de Frecuencias de Peso" class="grafico-img">
+                            <p>Polígono de frecuencias</p>
+                        </div>
+                    </div>
+                    <div class="columna-dato">
+                        <div class="caja-crud">
+                            <h3>Altura</h3>
+                            <img src="img/altura-frecuencia-absoluta.png" alt="Frecuencia Absoluta de Altura" class="grafico-img">
+                            <p>Frecuencias absolutas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/altura-frecuencia-relativa.png" alt="Frecuencia Relativa de Altura" class="grafico-img">
+                            <p>Frecuencias relativas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/altura-frecuencia-acumulada.png" alt="Frecuencia Acumulada de Altura" class="grafico-img">
+                            <p>Frecuencia acumulada</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/altura-poligono-frecuencias.png" alt="Polígono de Frecuencias de Altura" class="grafico-img">
+                            <p>Polígono de frecuencias</p>
+                        </div>
+                    </div>
+                    <div class="columna-dato">
+                        <div class="caja-crud">
+                            <h3>Velocidad</h3>
+                            <img src="img/velocidad-frecuencia-absoluta.png" alt="Frecuencia Absoluta de Velocidad" class="grafico-img">
+                            <p>Frecuencias absolutas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/velocidad-frecuencia-relativa.png" alt="Frecuencia Relativa de Velocidad" class="grafico-img">
+                            <p>Frecuencias relativas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/velocidad-frecuencia-acumulada.png" alt="Frecuencia Acumulada de Velocidad" class="grafico-img">
+                            <p>Frecuencia acumulada</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/velocidad-poligono-frecuencias.png" alt="Polígono de Frecuencias de Velocidad" class="grafico-img">
+                            <p>Polígono de frecuencias</p>
+                        </div>
+                    </div>
+                    <div class="columna-dato">
+                        <div class="caja-crud">
+                            <h3>Colores</h3>
+                            <img src="img/color-frecuencia-absoluta.png" alt="Frecuencia Absoluta de Colores" class="grafico-img">
+                            <p>Frecuencias absolutas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/color-frecuencia-relativa.png" alt="Frecuencia Relativa de Colores" class="grafico-img">
+                            <p>Frecuencias relativas</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/color-frecuencia-acumulada.png" alt="Frecuencia Acumulada de Colores" class="grafico-img">
+                            <p>Frecuencia acumulada</p>
+                        </div>
+                        <div class="caja-crud">
+                            <img src="img/color-poligono-frecuencias.png" alt="Polígono de Frecuencias de Colores" class="grafico-img">
+                            <p>Polígono de frecuencias</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
